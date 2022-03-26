@@ -1,0 +1,201 @@
+
+    @font-face {
+        font-family: "DomaineDisplayBold";
+        src: url("../FONTS/FontsFree-Net-DomaineDisplayBold.ttf");
+    }
+
+
+    @font-face {
+        font-family: "Neo Sans Arabic Regular";
+        src: url("../FONTS/Neo Sans Arabic Regular.ttf");
+    }
+
+    @font-face {
+        font-family: "Neo Sans Arabic Medium";
+        src: url("../FONTS/Neo_Sans_Medium.ttf");
+    }
+    
+    
+    body {
+        background-color: #F6F6F6;
+    }
+    
+    h2 {
+        font-family: 'Neo Sans Arabic Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: left;
+        letter-spacing: -0.02em;
+        color: #0E0E0E;
+        }
+    h1 {
+        font-family: "DomaineDisplayBold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        text-align: left;
+        color: #C17823;
+        margin-top: 8px;
+        }
+    h3 {  
+        font-family: 'Neo Sans Arabic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+        text-align: left;
+        color: #0E0E0E;
+        gap: 0;
+        margin-top: 24px;
+    }  
+    h4 {
+        font-family: 'Neo Sans Arabic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        color: #0E0E0E;
+        }
+
+    h5 {
+        font-family: 'Neo Sans Arabic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        /* identical to box height, or 136% */
+        color: #656565;
+        }
+
+    a{
+        text-decoration: none;
+        color: #0E0E0E;
+    }
+    .navegacion {
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 80px 180px 80px;
+    }
+    .links {
+        display: flex;
+        gap: 40px;
+    }
+
+
+    .links a{
+        font-family: 'Neo Sans Arabic Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+    }
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
+
+        .introText {
+            width: 333px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .introText img{
+          align-self: flex-end;
+        }
+
+            .containerseparator {
+                width: 100%;
+                display: flex;
+                margin-top: 64px;
+                margin-bottom: 64px;
+            }
+
+            .separator {
+                height: 1px;
+                width: 80px;
+                background-color: black;
+
+            }
+
+        .medium {
+            margin-top: 24px; 
+        }
+    .texto h4 {
+        margin-top: 32px;
+    }
+
+    .logos{
+
+        display :flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-items: space-between;
+        margin-top: 32px; 
+    }
+
+.container .edufoto{
+    width: 274px;
+    height: 274px;
+}
+
+
+
+.footer {
+    width: 100%;
+    margin-top: 112px;
+}
+
+.block {
+    position: relative;
+}
+
+.svgblock {
+    position: absolute;
+    left: -96px;
+    top: -14px;
+}
+
+.navegacion .links a:hover {
+    font-family: 'Neo Sans Arabic Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    color: #C17823;
+}
+
+.logos {
+    display:flex;
+    align-content: flex-start;
+    gap: 48px;
+    
+}
+
+.medium img {
+    width: 144px;
+
+}
+
+#proyectos {
+    font-family: 'Neo Sans Arabic Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}

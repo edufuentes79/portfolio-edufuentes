@@ -1,0 +1,155 @@
+
+    @font-face {
+        font-family: "DomaineDisplayBold";
+        src: url("../FONTS/FontsFree-Net-DomaineDisplayBold.ttf");
+    }
+
+
+    @font-face {
+        font-family: "Neo Sans Arabic Regular";
+        src: url("../FONTS/Neo Sans Arabic Regular.ttf");
+    }
+
+    @font-face {
+        font-family: "Neo Sans Arabic Medium";
+        src: url("../FONTS/Neo_Sans_Medium.ttf");
+    }
+    
+    
+    body {
+        background-color: #F6F6F6;
+    }
+    
+    h2 {
+        font-family: 'Neo Sans Arabic Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #0E0E0E;
+        }
+    h1 {
+        font-family: "DomaineDisplayBold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        text-align: center;
+        color: #C17823;
+        }
+    h3 {  
+        font-family: 'Neo Sans Arabic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+        text-align: center;
+        color: #0E0E0E;
+        gap: 0;
+    }  
+    h4 {
+        font-family: 'Neo Sans Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    color: #0E0E0E;
+    }
+
+    h5 {
+        font-family: 'Neo Sans Arabic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        /* identical to box height, or 136% */
+        color: #656565;
+    }
+
+    
+    
+    .navegacion {
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 80px 180px 80px;
+    }
+    .links {
+        display: flex;
+        gap: 40px;
+    }
+
+
+    .links a{
+        font-family: 'Neo Sans Arabic Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        color: #0E0E0E;
+    }
+
+    .idea {
+        margin-top: 36px;
+    }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+ 
+.contactos {
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+    margin-bottom: 64px;
+
+}
+
+.navegacion .links a:hover {
+    font-family: 'Neo Sans Arabic Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    color: #C17823;
+}
+
+.contactos {
+    margin-top: 112px;
+}
+
+.bold {
+    font-family: 'Neo Sans Arabic Medium';
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hover:hover {
+    font-family: 'Neo Sans Arabic Regular';
+    cursor: pointer;
+    color: #C17823;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: -128px;
+}
+.footer {
+    width: 100%;
+    display: flex;
+}
