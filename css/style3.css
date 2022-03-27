@@ -1,18 +1,18 @@
 
     @font-face {
         font-family: "DomaineDisplayBold";
-        src: url("../FONTS/FontsFree-Net-DomaineDisplayBold.ttf");
+        src: url("../fonts/FontsFree-Net-DomaineDisplayBold.ttf");
     }
 
 
     @font-face {
         font-family: "Neo Sans Arabic Regular";
-        src: url("../FONTS/Neo Sans Arabic Regular.ttf");
+        src: url("../fonts/Neo Sans Arabic Regular.ttf");
     }
 
     @font-face {
         font-family: "Neo Sans Arabic Medium";
-        src: url("../FONTS/Neo_Sans_Medium.ttf");
+        src: url("../fonts/Neo_Sans_Medium.ttf");
     }
     
     
